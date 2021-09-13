@@ -6,6 +6,22 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.titre-text p{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 22px;
+    color: #6e7273!important;
+    font-style: italic;
+    font-weight: 540;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.titre-text .sous-titre{
+    font-weight: normal;
+    font-size: 15px ;
+}
 
 a,
 button {
@@ -677,7 +693,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
