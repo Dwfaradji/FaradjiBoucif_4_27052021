@@ -6,6 +6,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.titre_formul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: 3rem;
+}
 .titre-text p,
 h2 {
     width: 60%;
@@ -62,7 +68,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -352,6 +358,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    color: #f3976c !important;
 }
 
 .navbar-toggle {
@@ -753,7 +760,7 @@ h4 {
 }
 
 .white {
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .portfolio-thumb {
@@ -795,16 +802,18 @@ h4 {
 
 .tc-white {
     color: #f3976c !important;
+    font-weight: bolder;
+    position: sticky;
 }
 
 .btn-atomic-tangerine {
     background: #f3976c;
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956 !important;
-    color: #ffffff !important;
+    background: #000000 !important;
+    color: #f3976c !important;
 }
 
 .ltc-white {
@@ -891,10 +900,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -903,8 +909,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
