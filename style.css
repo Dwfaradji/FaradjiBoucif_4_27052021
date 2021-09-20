@@ -5,6 +5,9 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    max-width: 1427px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .titre_formul {
     display: flex;
@@ -12,22 +15,33 @@ body {
     padding-bottom: 50px;
     font-size: 3rem;
 }
-.titre-text p,
-h2 {
+.titre-text h2 {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: 22px;
-    color: #6e7273 !important;
+    color: #131414 !important;
     font-style: italic;
     font-weight: 540;
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.titre-text p{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2rem;
+    color: #6e7273 !important;
+    font-style: italic;
+    font-weight: 540;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
 .titre-text .sous-titre {
     font-weight: normal;
-    font-size: 15px;
+    font-size: 1,3rem;
 }
 
 a,
@@ -726,6 +740,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -760,7 +776,10 @@ h4 {
 }
 
 .white {
-    color: #000000 !important;
+    color: #ffffff !important;
+}
+.black{
+    color: #000000 ;
 }
 
 .portfolio-thumb {
@@ -927,6 +946,10 @@ h4 {
     #disqus_thread {
         padding-left: 10px !important;
         padding-right: 10px !important;
+        margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
     }
     .b-parallax {
         background-attachment: scroll;
